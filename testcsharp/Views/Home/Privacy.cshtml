@@ -1,0 +1,65 @@
+﻿@model IEnumerable<testcsharp.Student>
+
+@{
+
+    ViewData["Title"] = "Testing!";
+    String[] teammember = new String[] { "Mohammad", "Louis", "Anni", "Alex", "Oli", "Nadi" };
+    int[] ages = new int[] { 0, 23, 23, 0, 0, 23 };
+
+    var louis = new Student();
+    louis.age = 23;
+    louis.name = "Louis";
+
+    var anni = new Student_with_attributes("Anni", 23);
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@* Task 1 solved by: *@
+
+@for (var i = 0; i < teammember.Length; i++)
+{
+    var person = teammember[i];
+    <p>
+    <text>Name: @person</text>
+</p>
+}
+@* Task 2 solved by: *@
+@{
+    var j = 0;
+}
+@while (j < ages.Length)
+{
+    var person = ages[j];
+    <p>@teammember[j] ist @ages[j] Jahre alt</p>
+
+    j++;
+}
+
+@* Task 3 solved by: *@
+@{
+    var babys = 0;
+    foreach (int element in ages)
+    {
+        if (element < 25)
+        {
+            babys++;
+        }
+    }
+    var adults = teammember.Length - babys;
+    <h2>We have @babys babys and @adults adults.</h2>
+}
+<br />
+
+@* Task 4 solved by: *@
+@{
+    <p>@louis.name ist @louis.age alt.</p>
+}
+
+@* Task 5 solved by: *@
+@{
+    <p>@anni.Name ist @anni.Age alt. </p>
+}
+
+
+<p>Use this page to detail your site's privacy policy.</p>
