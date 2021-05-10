@@ -21,14 +21,15 @@
 {
     var person = teammember[i];
     <p>
-    <text>Name: @person</text>
+    <text>Name: person</text> @* Es sollen alle Namen ausgegeben werden. *@
 </p>
 }
+
 @* Task 2 solved by: *@
 @{
-    var j = 0;
+    int j = 0;
 }
-@while (j < ages.Length)
+@while (j < 0) @* Muss Ages komplett durchgehen. *@
 {
     var person = ages[j];
     <p>@teammember[j] ist @ages[j] Jahre alt</p>
@@ -43,22 +44,22 @@
     {
         if (element < 25)
         {
-            babys++;
+            @* Babys muss hochgezählt werden *@
         }
     }
     var adults = teammember.Length - babys;
-    <h2>We have @babys babys and @adults adults.</h2>
+    <h2>We have "Variable babys" babys and "Variable adults" adults.</h2>
 }
 <br />
 
 @* Task 4 solved by: *@
 @{
-    <p>@louis.name ist @louis.age alt.</p>
+    <p>"Name von Louis" ist "Alter von Louis" alt.</p>
 }
 
 @* Task 5 solved by: *@
 @{
-    <p>@anni.Name ist @anni.Age alt. </p>
+    <p>"Name von Klasse Anni" ist "Alter von Klasse Anni"" alt. </p>
 }
 
 
