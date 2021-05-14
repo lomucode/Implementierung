@@ -10190,6 +10190,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Alex.cshtml",
+      "TargetPath": "Views\\Home\\Alex.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

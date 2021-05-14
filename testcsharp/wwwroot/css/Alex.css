@@ -1,0 +1,9 @@
+.container--alex {
+  display: flex;
+  background-color: red;
+  border: 2px solid yellow;
+  height: 400px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}

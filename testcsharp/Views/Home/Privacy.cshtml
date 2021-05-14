@@ -21,7 +21,7 @@
 {
     var person = teammember[i];
     <p>
-    <text>Name: @person</text> 
+    <text>Name: @person</text>
 </p>
 }
 
@@ -29,7 +29,7 @@
 @{
     int j = 0;
 }
-@while (j < ages.Length) 
+@while (j < teammember.Length)
 {
     var person = ages[j];
     <p>@teammember[j] ist @ages[j] Jahre alt</p>
@@ -54,12 +54,12 @@
 
 @* Task 4 solved by: *@
 @{
-    <p>"Name von Louis" ist "Alter von Louis" alt.</p>
+    <p>@louis.name ist @louis.age alt.</p>
 }
 
 @* Task 5 solved by: *@
 @{
-    <p>"Name von Klasse Anni" ist "Alter von Klasse Anni"" alt. </p>
+    <p> @anni.Name ist @anni.Age alt. </p>
 }
 
 
