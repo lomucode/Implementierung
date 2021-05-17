@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 .content-container-homepage {
   max-height: 800px;
   background-color: #f5f8fb;
