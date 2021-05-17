@@ -1,14 +1,25 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@section Scripts
+{
+<link href="~/css/homepage.css" rel="stylesheet" />
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <h2>Hey implement-members!</h2>
-    <h3>You need to lern a little bit HTML!</h3>
-    <h4>I hid 6 mistakes in Privacy.csthml. Every teammember have to solve one error.
-    </h4>
-    <h1>Good luck!</h1>
-    <h4>If you are a fast in learning, you can do the next steps:</h4>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="content-container-homepage">
+    <div class="content-container-picture--homepage">
+        <img src="~/lib/images/web_start_one.png" style="height: 100%;" />
+    </div>
+    <div class="content-container-text--homepage">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+            sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <button>Mehr Erfahren</button>
+    </div>
+</div>
 </div>
