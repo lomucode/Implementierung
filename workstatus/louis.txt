@@ -1,0 +1,11 @@
+
+Woche 1:    C# Überbklick
+Woche 2:    Wireframe erstellt (Webanwendung, App)
+Woche 3:    Repo aufsetzen in Github
+            C# ASP NET Rätsel erstellen, mit dem andere Teammitglieder C# lernen sollen
+            C# ASP NET Projekt aufsetzen
+            Teammitgliedern Hilfestellung Github
+Woche 4:    Startseite Frontend erstellt
+            Gerüst erstellt (BottomTopper, Navbar)
+            Einführung in CSS & HTML gegeben
+Woche 5:      
