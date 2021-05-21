@@ -1,9 +1,80 @@
-.container--alex {
+.container--university {
+  min-height: 500px;
+  max-height: 800px;
+  max-width: 1920px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: auto;
+  background-color: #f5f8fb;
+}
+
+.content {
   display: flex;
-  background-color: red;
-  border: 2px solid yellow;
-  height: 400px;
-  width: 80%;
+  background-color: #f5f8fb;
+  width: 100%;
   justify-content: center;
+}
+
+.picture--university {
+  display: flex;
+  flex: auto;
   align-items: center;
+  justify-content: center;
+  grid-column: 1 2;
+  margin: 50px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.picture--university img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.university--text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  justify-content: center;
+  background-color: transparent;
+  grid-column: 2 3;
+  margin: 50px;
+  overflow: auto;
+  margin-left: 20px;
+}
+
+.test {
+  height: 100px;
+  width: 100px;
+}
+
+.university--text button {
+  background-color: #f58b8f;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px transparent;
+  border: none;
+  height: 50px;
+  width: 140px;
+}
+
+.university--text button:hover {
+  border: 2px solid #f58b8f;
+  background-color: #fff;
+  color: #f58b8f;
+}
+@media screen and (max-width: 850px) {
+  .picture--university {
+    display: none;
+  }
+
+  .container--university {
+    display: flex;
+  }
+
+  .university--text {
+    width: 100%;
+  }
 }

@@ -3,11 +3,11 @@ body {
 }
 
 .content-container-homepage {
-  max-height: 800px;
+  max-height: 750px;
   background-color: #f5f8fb;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .content-container-picture--homepage {
@@ -20,14 +20,15 @@ body {
   margin: 50px;
   min-height: 450px;
   max-height: 700px;
+  max-width: 760px;
   overflow: auto;
 }
 
 .content-container-picture--homepage img {
-  object-fit: cover;
-  width: 100%;
+  object-fit: contain;
+  width: 90%;
   max-width: 700px;
-  height: auto;
+  height: 90%;
 }
 
 .content-container-text--homepage {
@@ -36,11 +37,10 @@ body {
   align-items: start;
   text-align: start;
   justify-content: center;
-  background-color: transparent;
   grid-column: 2 3;
   margin: 50px;
   max-height: 800px;
-  max-width: 1024px;
+  max-width: 760px;
   overflow: auto;
 }
 
@@ -60,7 +60,7 @@ body {
   color: #f58b8f;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 850px) {
   .content-container-picture--homepage {
     display: none;
   }
