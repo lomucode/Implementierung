@@ -1,18 +1,10 @@
-.navbar-toggler2 {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-
 .navbar-individuel {
   width: 84%;
   max-width: 1920px;
 }
 
 .position-navbar {
+  background-color: #fff;
   display: flex;
   justify-content: center;
 }

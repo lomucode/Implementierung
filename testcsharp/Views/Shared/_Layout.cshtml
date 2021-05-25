@@ -14,18 +14,20 @@
     <header>
         <div class="position-navbar">
             <div class="navbar-individuel">
-                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light ">
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white ">
                     <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse d-sm-inline-flex">
                         <ul class="navbar-nav mr-auto">
-
                             <div style="height: 80px; border-top: 40px; display: flex; flex-direction: column; align-items: start;
-                justify-content: center; ">
-                                <p style="line-height: 0.8em; font-size: 24px; font-weight: 200;">Europe Day</p>
-                                <p style="line-height: 0.0em; font-size: 24px; font-weight: 700;">ATHENATON</p>
+                justify-content: center;">
+                                <a style="margin-bottom: -5px; font-size: 24px; font-weight: 200; text-decoration:none; color: #000"
+                                    href="/">Europe
+                                    Day</a>
+                                <a style="margin-top: -5px; font-size: 24px; font-weight: 700;  text-decoration:none; color: #000"
+                                    href="/">ATHENATON</a>
                             </div>
                         </ul>
 
@@ -39,7 +41,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy"
                                             style="font-size: 20px; font-weight: 200; color: #000">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Uni I</a></li>
+                                    <li><a class="dropdown-item" href="/Home/UniSiegen">Universität Siegen</a></li>
                                     <li><a class="dropdown-item" href="#">Uni III</a></li>
                                     <li><a class="dropdown-item" href="#">Uni III</a></li>
                                     <li><a class="dropdown-item" href="#">Uni IV</a></li>
@@ -58,7 +60,7 @@
                                     style="font-size: 20px; font-weight: 200; color:#000">FAQ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Alex"
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="UniSiegen"
                                     style="font-size: 20px; font-weight: 200; color:#000">Deutschland</a>
                             </li>
                         </ul>
@@ -71,7 +73,7 @@
 
                             <button type="button" class="btn btn-outline-dark"
                                 style="border-radius: 40px; margin: 5px; margin-top: 2.5px;"
-                                onclick="location.href='@Url.Action("Alex")'">Login</button>
+                                onclick="location.href='@Url.Action("UniSiegen")'">Login</button>
                         </ul>
                     </div>
 

@@ -1,11 +1,39 @@
+body {
+  height: 100vh;
+  background-color: #f5f8fb;
+  overflow: hidden;
+}
+
+.flag {
+  position: fixed;
+  top: 120px;
+  right: 40px;
+}
+
+.flag img {
+  height: 80px;
+  width: 80px;
+}
+
+.uni-logo {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+}
+
+.uni-logo img {
+  height: 200px;
+  width: 200px;
+}
+
 .container--university {
+  margin-top: 20px;
   min-height: 500px;
   max-height: 800px;
   max-width: 1920px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: auto;
-  background-color: #f5f8fb;
 }
 
 .content {
@@ -70,11 +98,32 @@
     display: none;
   }
 
+  .uni-logo img {
+    display: none;
+  }
+
   .container--university {
     display: flex;
   }
 
   .university--text {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .uni-logo img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .uni-logo img {
+    display: none;
+  }
+
+  .flag {
+    display: none;
   }
 }
