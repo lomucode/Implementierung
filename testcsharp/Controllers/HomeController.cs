@@ -28,7 +28,7 @@ namespace testcsharp.Controllers
             return View();
         }
 
-        public IActionResult Alex()
+        public IActionResult UniSiegen()
         {
             return View();
         }

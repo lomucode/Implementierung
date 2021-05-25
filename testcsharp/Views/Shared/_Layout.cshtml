@@ -12,75 +12,96 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex">
-                <ul class="navbar-nav mr-auto">
-
-                    <div style="height: 80px; border-top: 40px; display: flex; flex-direction: column; align-items: start;
+        <div class="position-navbar">
+            <div class="navbar-individuel">
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white ">
+                    <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex">
+                        <ul class="navbar-nav mr-auto">
+                            <div style="height: 80px; border-top: 40px; display: flex; flex-direction: column; align-items: start;
                 justify-content: center;">
-                        <p style="line-height: 0.8em; font-size: 24px; font-weight: 200;">Europe Day</p>
-                        <p style="line-height: 0.0em; font-size: 24px; font-weight: 700;">ATHENATON</p>
-                    </div>
-                </ul>
-
-                <ul class="navbar-nav mx-auto order-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Die Universitäten
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" asp-area="" asp-controller="Home"
-                                    asp-action="Privacy">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <a style="margin-bottom: -5px; font-size: 24px; font-weight: 200; text-decoration:none; color: #000"
+                                    href="/">Europe
+                                    Day</a>
+                                <a style="margin-top: -5px; font-size: 24px; font-weight: 700;  text-decoration:none; color: #000"
+                                    href="/">ATHENATON</a>
+                            </div>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Über
-                            Athenaton</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                            asp-action="Alex">Deutschland</a>
-                    </li>
-                </ul>
 
-                <ul class="navbar-nav ml-auto">
-                    <button type="button" class="btn btn-dark"
-                        style="border-radius: 40px; margin: 5px; margin-bottom: 2.5px;">Hol dir die
-                        App</button>
-                    <br />
+                        <ul class="navbar-nav mx-auto order-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    style="font-size: 20px; font-weight: 200; color:#000">
+                                    Die Universitäten
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy"
+                                            style="font-size: 20px; font-weight: 200; color: #000">Action</a></li>
+                                    <li><a class="dropdown-item" href="/Home/UniSiegen">Universität Siegen</a></li>
+                                    <li><a class="dropdown-item" href="#">Uni III</a></li>
+                                    <li><a class="dropdown-item" href="#">Uni III</a></li>
+                                    <li><a class="dropdown-item" href="#">Uni IV</a></li>
+                                    <li><a class="dropdown-item" href="#">Uni VI</a></li>
+                                    <li><a class="dropdown-item" href="#">Uni VI</a></li>
+                                    <li><a class="dropdown-item" href="#">Uni VII</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy"
+                                    style="font-size: 20px; font-weight: 200; color:#000">Über
+                                    Athenaton</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy"
+                                    style="font-size: 20px; font-weight: 200; color:#000">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="UniSiegen"
+                                    style="font-size: 20px; font-weight: 200; color:#000">Deutschland</a>
+                            </li>
+                        </ul>
 
-                    <button type="button" class="btn btn-outline-dark"
-                        style="border-radius: 40px; margin: 5px; margin-top: 2.5px;"
-                        onclick="location.href='@Url.Action("Alex")'">Login</button>
-                </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <button type="button" class="btn btn-dark"
+                                style="border-radius: 40px; margin: 5px; margin-bottom: 2.5px;">Zur
+                                App</button>
+                            <br />
+
+                            <button type="button" class="btn btn-outline-dark"
+                                style="border-radius: 40px; margin: 5px; margin-top: 2.5px;"
+                                onclick="location.href='@Url.Action("UniSiegen")'">Login</button>
+                        </ul>
+                    </div>
+
             </div>
-
-            </div>
-
+        </div>
         </nav>
+        </div>
     </header>
     <div style="height: 20px;"></div>
     <div>@RenderBody()</div>
 
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - ATHENA European University - All rights reserved.
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Impressum</a>
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Datenschutz</a>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left-content">
+                &copy; 2021 - ATHENA European University - All rights reserved.
+
+            </div>
+            <div class="footer-right-content">
+                <a asp-area="" asp-controller="Home" asp-action="Privacy">Impressum</a>
+                <a asp-area="" asp-controller="Home" asp-action="Privacy">Datenschutz</a>
+            </div>
         </div>
+
     </footer>
+
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
