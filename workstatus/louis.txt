@@ -8,4 +8,6 @@ Woche 3:    Repo aufsetzen in Github
 Woche 4:    Startseite Frontend erstellt
             Gerüst erstellt (BottomTopper, Navbar)
             Einführung in CSS & HTML gegeben
-Woche 5:      
+Woche 5:    Universität Siegen Webseite erstellt
+            Navbar angepasst und dieser neue Funktionen zugewiesen
+            ViewController modifiziert
