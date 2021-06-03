@@ -32,6 +32,46 @@ namespace testcsharp.Controllers
         {
             return View();
         }
+        public IActionResult HellenicMediterraneanUniversity()
+        {
+            return View();
+        }
+        public IActionResult ThePolytechnicInstituteofPorto()
+        {
+            return View();
+        }
+        public IActionResult UniMaribor()
+        {
+            return View();
+        }
+        public IActionResult Unicusano()
+        {
+            return View();
+        }
+        public IActionResult UniOrleans()
+        {
+            return View();
+        }
+        public IActionResult VilniusTech()
+        {
+            return View();
+        }
+        public IActionResult Athenathon()
+        {
+            return View();
+        }
+        public IActionResult FAQ()
+        {
+            return View();
+        }
+        public IActionResult Impressum()
+        {
+            return View();
+        }
+        public IActionResult Datenschutz()
+        {
+            return View();
+        }
 
         public IActionResult Settings()
         {
