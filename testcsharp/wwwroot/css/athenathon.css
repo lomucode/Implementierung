@@ -1,0 +1,36 @@
+.learn-more {
+  background-color: #f58b8f;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px transparent;
+  border: none;
+  height: 50px;
+  width: 140px;
+}
+
+.learn-more:hover {
+  border: 2px solid #f58b8f;
+  background-color: #fff;
+  color: #f58b8f;
+}
+
+.snowboard{
+float:right;
+margin-top: 80px;
+	
+}
+.button-athenathon {
+border-color: #f58b8f !important;
+border-radius: 36px !important;
+color: white !important;
+background-color: #f58b8f !important;
+padding: 13px !important;
+}
+
+
+.button-athenathon:hover{
+	background-color: transparent !important;
+	color: #f58b8f !important;
+	border-color: #f58b8f !important;
+	border-radius: 19px !;
+}
