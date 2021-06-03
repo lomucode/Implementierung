@@ -69,3 +69,4 @@
 /Users/louismueller/Code/Implementierung/testcsharp/obj/Debug/netcoreapp3.0/testcsharp.pdb
 /Users/louismueller/Code/Implementierung/testcsharp/obj/Debug/netcoreapp3.0/testcsharp.csproj.CopyComplete
 /Users/louismueller/Code/Implementierung/testcsharp/obj/Debug/netcoreapp3.0/Razor/Views/Home/UniSiegen.cshtml.g.cs
+/Users/louismueller/Code/Implementierung/testcsharp/obj/Debug/netcoreapp3.0/Razor/Views/Home/Settings.cshtml.g.cs
