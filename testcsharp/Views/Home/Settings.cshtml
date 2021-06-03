@@ -37,20 +37,21 @@ new String[]{"0", "BlablaBlablaBlablaBlablaBlabla", "Inaktiv"},
                 {
                     if (i == 0)
                     {
-                        <div class="order">
-                            <img src="~/lib/images/_settings/order.png" style="height: 17px;" />
+                        <div class="title">
+                            <div class="order">
+                                <img class="orderpng" src="~/lib/images/_universitaeten/order.png" style="height: 17px;" />
+                            </div>
                             <p>@title</p>
                         </div>
                     }
                     else
                     {
-
                         <div class="title">
                             <p>@title</p>
                         </div>
                     }
+                    i++;
                 }
-                i++;
             }
 
             @{
@@ -65,13 +66,13 @@ new String[]{"0", "BlablaBlablaBlablaBlablaBlabla", "Inaktiv"},
                         if (index == 3)
                         {
                             <div class="title2">
-                                <p>X</p>
+                                <img src="~/lib/images/_settings/lock.png" alt="edit" style=" height: 17px;" />
                             </div>
                             <div class="title2">
-                                <p>X</p>
+                                <img src="~/lib/images/_settings/remove.png" style=" height: 17px;" />
                             </div>
                             <div class="title2">
-                                <p>X</p>
+                                <img src="~/lib/images/_settings/edit.png" style=" height: 17px;" />
                             </div>
                         }
                         index++;
@@ -112,10 +113,10 @@ new String[]{"0", "BlablaBlablaBlablaBlablaBlabla", "Inaktiv"},
                         if (j == 2)
                         {
                             <div class="title2">
-                                <p>X</p>
+                                <img src="~/lib/images/_settings/remove.png" style=" height: 17px;" />
                             </div>
                             <div class="title2">
-                                <p>X</p>
+                                <img src="~/lib/images/_settings/edit.png" style=" height: 17px;" />
                             </div>
                         }
                         j++;
