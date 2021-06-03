@@ -1,48 +1,231 @@
-.navbar-individuel {
-  width: 84%;
-  max-width: 1920px;
+/* ============ desktop view ============ */
+@media all and (min-width: 982px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .navbar li a {
+        margin-left: 2em;
+    }
+
+    .navbar li img {
+        margin-left: 2em;
+    }
+
+    .app {
+        margin-right: 0.2em;
+    }
+
+    .login {
+        margin-right: 2em;
+    }
+
+    .logo {
+        margin-left: 2em;
+    }
 }
 
-.position-navbar {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
+@media (min-width: 981px) and (max-width: 1240px) {
+    .login {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .app {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
 }
 
-.navbar-toggler:hover,
-.navbar-toggler:focus {
-  text-decoration: none;
-}
+/* ============ desktop view .end// ============ */
 
-.footer-container {
-  background-color: #fff;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* ============ mobile view ============ */
+@media(max-width: 981px) {
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+
+    .navbar li a {
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+
+    .navbar .german-flag {
+        margin-left: 0.5em;
+        margin-top: 1.7em !important;
+    }
+
+    .login {
+        margin-right: 0.5em;
+        margin-top: 1em;
+    }
+
+    .logo {
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .running {
+        display: none;
+    }
+
+    .copyright {
+        float: none !important;
+    }
+
+    .impressum {
+        float: none !important;
+        margin-right: 20px !important;
+    }
+
+    .datenschutz {
+        float: none !important;
+        margin-right: 0px !important;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+   
 }
-.footer-right-content {
-  margin-right: 80px;
-}
-.footer-left-content {
-  margin-left: 80px;
-}
-@media (max-width: 700px) {
-  .footer-right-content {
-    margin-right: 0px;
-  }
-  .footer-left-content {
-    margin-left: 0px;
-  }
-}
+/* ============ mobile view .end// ============ */
+
+/* ============ Navbar// ============ */
+
+    .navbar .megamenu {
+        padding: 1rem;
+    }
+
+    .nav-link {
+        color: black !important;
+    }
+
+    .uni:hover {
+        color: #FE8C8D !important;
+    }
+
+    .germany:hover {
+        color: #FE8C8D !important;
+    }
+
+    .athenathon:hover {
+        color: #FE8C8D !important;
+    }
+
+    .faq:hover {
+        color: #FE8C8D !important;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+        }
+
+
+    .custom-toggler.navbar-toggler {
+        border-color: black !important;
+    }
+
+    .list-unstyled li {
+        padding: 10px;
+    }
+
+    .list-unstyled a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .list-unstyled a:hover {
+        color: #FE8C8D !important;
+    }
+
+
+
+    .button-app:hover {
+        background-color: #F8933B !important;
+        color: white !important;
+        border-color: #F8933B !important;
+    }
+
+    .learn-more {
+        background-color: #f58b8f;
+        color: white;
+        border-radius: 30px;
+        box-shadow: 0px 0px transparent;
+        border: none;
+        height: 50px;
+        width: 140px;
+    }
+
+    .learn-more:hover {
+        border: 2px solid #f58b8f;
+        background-color: #fff;
+        color: #f58b8f !important;
+    }
+
+    .datenschutz:hover {
+        color: #FE8C8D !important;
+    }
+
+    .impressum:hover {
+        color: #FE8C8D !important;
+    }
+
+/* ============ Footer// ============ */
+
+    .footer-container {
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .footer-right-content {
+        margin-right: 80px;
+    }
+
+    .footer-left-content {
+        margin-left: 80px;
+    }
+
+    @media (max-width: 700px) {
+        .footer-right-content {
+            margin-right: 0px;
+        }
+
+        .footer-left-content {
+            margin-left: 0px;
+        }
+    }
 
 footer {
-  height: 50px;
-  width: 100vw;
-
-  border-top: 1px solid rgba(150, 150, 150, 0.462);
-  position: fixed;
-  bottom: 0;
-  left: 0;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: none;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+footer a:hover {
+    color: #f58b8f;
+    text-decoration: none;
 }

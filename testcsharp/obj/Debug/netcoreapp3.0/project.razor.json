@@ -10185,6 +10185,26 @@
   "RootNamespace": "testcsharp",
   "Documents": [
     {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/UniOrleans.cshtml",
+      "TargetPath": "Views\\Home\\UniOrleans.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/VilniusTech.cshtml",
+      "TargetPath": "Views\\Home\\VilniusTech.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Athenathon.cshtml",
+      "TargetPath": "Views\\Home\\Athenathon.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/FAQ.cshtml",
+      "TargetPath": "Views\\Home\\FAQ.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -10200,6 +10220,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Datenschutz.cshtml",
+      "TargetPath": "Views\\Home\\Datenschutz.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -10210,8 +10235,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/ThePolytechnicInstituteofPorto.cshtml",
+      "TargetPath": "Views\\Home\\ThePolytechnicInstituteofPorto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/UniMaribor.cshtml",
+      "TargetPath": "Views\\Home\\UniMaribor.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -10222,6 +10257,21 @@
     {
       "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Unicusano.cshtml",
+      "TargetPath": "Views\\Home\\Unicusano.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Impressum.cshtml",
+      "TargetPath": "Views\\Home\\Impressum.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/HellenicMediterraneanUniversity.cshtml",
+      "TargetPath": "Views\\Home\\HellenicMediterraneanUniversity.cshtml",
       "FileKind": "mvc"
     }
   ],

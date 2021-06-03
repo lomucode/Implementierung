@@ -4,8 +4,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
-
   <ItemGroup>
+    <Content Remove="wwwroot\js\navbar.js" />
+    <Content Remove="wwwroot\js\site - Kopieren.js" />
   </ItemGroup>
 
 </Project>
