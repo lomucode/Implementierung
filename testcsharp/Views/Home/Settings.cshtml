@@ -1,0 +1,144 @@
+@section Scripts
+{
+<link href="~/css/Settings.css" rel="stylesheet" />
+}
+
+@{
+    String[] titles = new String[] { "VORNAME", "NACHNAME", "BENUTZERNAME (E-MAIL)", "ROLLE", "", "", "" };
+    String[] messageTitle = { "ID", "HEADLINE", "STATUS", "", "" };
+    String[][] students ={
+new String[]{"Louis", "Müller", "louism.1998@yahoo.de", "student"},
+new String[]{"Annamarie", "Schwanow", "safsdts@yahoo.de", "student"},
+};
+    String[][] messages ={
+new String[]{"0", "BlablaBlablaBlablaBlablaBlabla", "Aktiv"},
+new String[]{"0", "BlablaBlablaBlablaBlablaBlabla", "Inaktiv"},
+};
+    int zahl = 10304;
+}
+
+<div class="container-settings">
+    <div class="settings-title">
+        <h1>Einstellungen</h1>
+    </div>
+    <div class="user-verwalten">
+        <div class="user-verwalten-title">
+            <h2>Benutzer verwalten</h2>
+        </div>
+        <div class="user-verwalten-add">
+            <button>+ NEUEN BENUTZER HINZUFÜGEN</button>
+            <input type="text" placeholder="Suchen"></input>
+        </div>
+        <div class="user-verwalten-user">
+            @* MAPPING *@
+            @{
+                int i = 0;
+                foreach (var title in titles)
+                {
+                    if (i == 0)
+                    {
+                        <div class="title">
+                            <div class="order">
+                                <img class="orderpng" src="~/lib/images/_universitaeten/order.png" style="height: 17px;" />
+                            </div>
+                            <p>@title</p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="title">
+                            <p>@title</p>
+                        </div>
+                    }
+                    i++;
+                }
+            }
+
+            @{
+                foreach (var student in students)
+                {
+                    int index = 0;
+                    foreach (var e in student)
+                    {
+                        <div class="title2">
+                            <p>@e</p>
+                        </div>
+                        if (index == 3)
+                        {
+                            <div class="title2">
+                                <img src="~/lib/images/_settings/lock.png" alt="edit" style=" height: 17px;" />
+                            </div>
+                            <div class="title2">
+                                <img src="~/lib/images/_settings/remove.png" style=" height: 17px;" />
+                            </div>
+                            <div class="title2">
+                                <img src="~/lib/images/_settings/edit.png" style=" height: 17px;" />
+                            </div>
+                        }
+                        index++;
+                    }
+                }
+            }
+
+        </div>
+    </div>
+
+    <div class="message-verwalten">
+        <div class="message-title">
+            <h2>Nachrichten verwalten</h2>
+        </div>
+        <div class="message-add">
+            <button>+ NEUEN BENUTZER HINZUFÜGEN</button>
+            <input type="text" placeholder="Suchen"></input>
+        </div>
+        <div class="message-user">
+            @{
+                foreach (var title in messageTitle)
+                {
+                    <div class="title--message">
+                        <p>@title</p>
+                    </div>
+                }
+            }
+
+            @{
+                foreach (var message in messages)
+                {
+                    int j = 0;
+                    foreach (var e in message)
+                    {
+                        <div class="title2">
+                            <p>@e</p>
+                        </div>
+                        if (j == 2)
+                        {
+                            <div class="title2">
+                                <img src="~/lib/images/_settings/remove.png" style=" height: 17px;" />
+                            </div>
+                            <div class="title2">
+                                <img src="~/lib/images/_settings/edit.png" style=" height: 17px;" />
+                            </div>
+                        }
+                        j++;
+                    }
+                }
+            }
+
+        </div>
+    </div>
+    <div class="distance-verwalten">
+        <div class="distance-title">
+            <h2>Distanzen verwalten</h2>
+        </div>
+        <div class="distance-content">
+            <p>Athenathon Gesamtfortschritt</p>
+            <p>(in km)</p>
+            <div class="counter">
+                <button class="red">-</button>
+                <p>@zahl</p>
+                <button class="add">+</button>
+            </div>
+            <button class="submit">Bestätigen</button>
+        </div>
+    </div>
+</div>

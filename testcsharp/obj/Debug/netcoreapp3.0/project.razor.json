@@ -10265,6 +10265,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Settings.cshtml",
+      "TargetPath": "Views\\Home\\Settings.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Impressum.cshtml",
       "TargetPath": "Views\\Home\\Impressum.cshtml",
       "FileKind": "mvc"
