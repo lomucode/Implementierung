@@ -10250,6 +10250,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Home/Registry.cshtml",
+      "TargetPath": "Views\\Home\\Registry.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/louismueller/Code/Implementierung/testcsharp/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
