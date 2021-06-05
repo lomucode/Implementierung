@@ -1,0 +1,237 @@
+.container--Registry {
+  max-height: 800px;
+  background-color: #f5f8fb;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  overflow: auto;
+}
+
+.content-container-picture--login {
+  display: flex;
+  flex: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-column: 1 2;
+  margin: 50px;
+  min-height: 450px;
+  max-height: 700px;
+  max-height: auto;
+  overflow: auto;
+}
+
+.content-container-picture--login img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.content-container-text--signin {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  justify-content: start;
+  background-color: transparent;
+  grid-column: 2 3;
+  margin: 50px;
+  max-height: 800px;
+  max-width: 1024px;
+  overflow: auto;
+}
+
+.PW {
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  color: #53b2c8;
+}
+
+/* form starting stylings ------------------------------- */
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background-color: #f5f8fb;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.content-container-text--signup {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  justify-content: start;
+  background-color: transparent;
+  grid-column: 2 3;
+  margin: 50px;
+  max-height: 800px;
+  max-width: 1024px;
+  overflow: auto;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+input:focus {
+  outline: none;
+}
+
+.content-container-text--signin button {
+  background-color: #f58b8f;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px transparent;
+  border: none;
+  height: 50px;
+  width: 140px;
+}
+
+.content-container-text--signin button:hover {
+  border: 2px solid #f58b8f;
+  background-color: #fff;
+  color: #f58b8f;
+}
+
+.content-container-text--signup button {
+  background-color: #f58b8f;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px transparent;
+  border: none;
+  height: 50px;
+  width: 140px;
+  margin-bottom: 25px;
+}
+
+.content-container-text--signup button:hover {
+  border: 2px solid #f58b8f;
+  background-color: #fff;
+  color: #f58b8f;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-container-picture--login {
+    display: none;
+  }
+
+  .content-container-login {
+    display: flex;
+  }
+
+  .content-container-text--signin {
+    width: 100%;
+  }
+
+  .content-container-text--signup {
+    width: 100%;
+  }
+}
+
+/* .squaredFour */
+.squaredFour {
+  float: right;
+  width: 20px;
+  position: relative;
+  margin: 20px auto;
+}

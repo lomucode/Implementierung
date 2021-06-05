@@ -28,6 +28,11 @@ namespace testcsharp.Controllers
             return View();
         }
 
+        public IActionResult Registry()
+        {
+            return View();
+        }
+
         public IActionResult UniSiegen()
         {
             return View();
@@ -74,6 +79,16 @@ namespace testcsharp.Controllers
         }
 
         public IActionResult Settings()
+        {
+            return View();
+        }
+        
+        public IActionResult Profil()
+        {
+            return View();
+        }
+
+        public IActionResult Dashboard()
         {
             return View();
         }
