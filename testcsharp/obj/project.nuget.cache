@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "225knhGQ07tjpy3l7cA9YBPF9XvtlhWWcfTe9f3ywp4n8j3lLvrecAeh7hS9vZvjgqdzr/IMu5U+sE5w7mLKog==",
+  "dgSpecHash": "O5YKjJIbPwYu7CEMDydBjcx74SCKOB1tJvuTfQqIdM3Ebnt6zvmWzSGNpVZ3QLyBX4ix9F2Fi7PGqxmuV698tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OliSp\\source\\repos\\new\\testcsharp\\testcsharp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\OliSp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
-    "C:\\Users\\OliSp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\OliSp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\OliSp\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/louismueller/Code/Implementierung/testcsharp/testcsharp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
