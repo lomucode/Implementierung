@@ -8,24 +8,34 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/louismueller/.nuget/packages/": {}
+    "C:\\Users\\OliSp\\.nuget\\packages\\": {},
+    "D:\\Program Files\\Microsoft Visual Studio Tools\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/louismueller/Code/Implementierung/testcsharp/testcsharp.csproj",
+      "projectUniqueName": "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\testcsharp.csproj",
       "projectName": "testcsharp",
-      "projectPath": "/Users/louismueller/Code/Implementierung/testcsharp/testcsharp.csproj",
-      "packagesPath": "/Users/louismueller/.nuget/packages/",
-      "outputPath": "/Users/louismueller/Code/Implementierung/testcsharp/obj/",
+      "projectPath": "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\testcsharp.csproj",
+      "packagesPath": "C:\\Users\\OliSp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files\\Microsoft Visual Studio Tools\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/louismueller/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\OliSp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp5.0"
+        "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

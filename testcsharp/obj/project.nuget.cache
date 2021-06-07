@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O5YKjJIbPwYu7CEMDydBjcx74SCKOB1tJvuTfQqIdM3Ebnt6zvmWzSGNpVZ3QLyBX4ix9F2Fi7PGqxmuV698tg==",
+  "dgSpecHash": "Y4W+ntfxDeV3SOKeLGqgTOQ5CMQqzjSBrDCUrKynnhWP3kJ1AcwUO84k6FSfSPFjq7/niKGX0S0kexlYvF9qGg==",
   "success": true,
-  "projectFilePath": "/Users/louismueller/Code/Implementierung/testcsharp/testcsharp.csproj",
+  "projectFilePath": "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\testcsharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
