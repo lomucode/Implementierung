@@ -1,0 +1,18 @@
+﻿
+@if (User.Identity.IsAuthenticated)
+{
+    <ul class="navbar-nav flex-grow-1">
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+        </li>
+
+    </ul>
+}
+else
+{
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Login">Login</a></li>
+        <li><a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Register">Registrieren</a></li>
+    </ul>
+}

@@ -91,22 +91,48 @@
 							</div>
 						</li>
 					</ul>
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item app d-none d-xl-block"><a
-								href="https://apps.apple.com/de/app/strava-laufen-radfahren/id426826309"
-								target="_blank">
-								<form style="border-color: black; border-radius: 19px;" class="btn btn-dark button-app"
-									type="submit">Hol dir die App</form>
-							</a></li>
-							
-						<form style="border-color: #D5D5D5; border-radius: 19px;" type="button"
-							class="btn btn-outline-dark nav-link nav-item button-login"  data-bs-toggle="dropdown"
-							>Anmelden</form>
-						<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="@Url.Action("Login")">Login</a></li>
-					<li><a class="dropdown-item" href="@Url.Action("Registry")">Registrieren</a></li>
-						</ul>
-					</ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item app d-none d-xl-block">
+                            <a href="https://apps.apple.com/de/app/strava-laufen-radfahren/id426826309"
+                               target="_blank">
+                                <form style="border-color: black; border-radius: 19px;" class="btn btn-dark button-app"
+                                      type="submit">
+                                    Hol dir die App
+                                </form>
+                            </a>
+                        </li>
+
+                        <form style="border-color: #D5D5D5; border-radius: 19px;" type="button"
+                              class="btn btn-outline-dark nav-link nav-item button-login" data-bs-toggle="dropdown">
+                            Anmelden
+                        </form>
+                        @*<ul class="dropdown-menu">
+        <li><a class="dropdown-item" asp-controller="Home" asp-action="Login">Login</a></li>
+        <li><a class="dropdown-item" asp-controller="Home" asp-action="Registry">Registrieren</a></li>
+            </ul>*@
+                        @*@if (User.Identity.IsAuthenticated)
+        {
+            <ul class="navbar-nav flex-grow-1">
+
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                </li>
+
+            </ul>
+        }
+        else
+        {
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                </li>
+            </ul>
+        }*@
+                        <partial name="_Loginpartial" />
+                    </ul>
 				</div>
 			</div>
 		</nav>
