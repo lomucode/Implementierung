@@ -167,6 +167,10 @@
         font-size: 16px;
         margin-left: 0 !important;
     }
+    .dropdown-item:hover{
+        color: white !important;
+        background-color: #f58b8f !important;
+    }
     .learn-more {
         background-color: #f58b8f;
         color: white;
