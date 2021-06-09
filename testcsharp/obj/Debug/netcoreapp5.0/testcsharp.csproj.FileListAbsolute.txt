@@ -103,3 +103,4 @@ C:\Users\OliSp\Documents\GitHub\Implementierung\testcsharp\obj\Debug\netcoreapp5
 C:\Users\OliSp\Documents\GitHub\Implementierung\testcsharp\obj\Debug\netcoreapp5.0\testcsharp.pdb
 C:\Users\OliSp\Documents\GitHub\Implementierung\testcsharp\obj\Debug\netcoreapp5.0\testcsharp.genruntimeconfig.cache
 C:\Users\OliSp\Documents\GitHub\Implementierung\testcsharp\obj\Debug\netcoreapp5.0\testcsharp.csproj.CopyComplete
+C:\Users\OliSp\Documents\GitHub\Implementierung\testcsharp\obj\Debug\netcoreapp5.0\Razor\Views\Home\Login.cshtml.g.cs

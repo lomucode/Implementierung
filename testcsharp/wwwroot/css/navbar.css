@@ -21,10 +21,10 @@
     }
 
     .app {
-        margin-right: 0.2em;
+        margin-right: 2em;
     }
 
-    .login {
+    .button-login {
         margin-right: 2em;
     }
 
@@ -150,14 +150,23 @@
         color: #FE8C8D !important;
     }
 
-
-
     .button-app:hover {
         background-color: #F8933B !important;
         color: white !important;
         border-color: #F8933B !important;
     }
-
+    .button-login:hover {
+        color: white !important;  
+    }
+    .dropdown-menu{
+        width: 100%;
+        border: none !important;
+    }
+    .dropdown-item{
+        font-weight: bold !important;
+        font-size: 16px;
+        margin-left: 0 !important;
+    }
     .learn-more {
         background-color: #f58b8f;
         color: white;

@@ -98,9 +98,14 @@
 								<form style="border-color: black; border-radius: 19px;" class="btn btn-dark button-app"
 									type="submit">Hol dir die App</form>
 							</a></li>
-						<button style="border-color: #D5D5D5; border-radius: 19px;" type="button"
-							class="btn btn-outline-dark"
-							onclick="location.href='@Url.Action("Registry")'">Anmelden</button>
+							
+						<form style="border-color: #D5D5D5; border-radius: 19px;" type="button"
+							class="btn btn-outline-dark nav-link nav-item button-login"  data-bs-toggle="dropdown"
+							>Anmelden</form>
+						<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="@Url.Action("Login")">Login</a></li>
+					<li><a class="dropdown-item" href="@Url.Action("Registry")">Registrieren</a></li>
+						</ul>
 					</ul>
 				</div>
 			</div>
