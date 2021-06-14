@@ -1,0 +1,48 @@
+﻿@model testcsharp.ViewModel.RegisterViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section Scripts
+{
+<link href="~/css/register.css" rel="stylesheet" />
+}
+<div class="container-fluid" style="background-color: #F4F8FB;">
+    <div class="row" style="margin-top: 30px; margin-bottom: 30px;">
+        <div class="col-6 d-none d-lg-block">
+            <img src="~/lib/images/running.png" alt="running" style="width:70%; height:auto; padding:50px;" />
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="padding: 50px; margin-top: 30px">
+            <h1 style="font-size: 39px; font-weight: bold;">Registrieren</h1>
+            
+            <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email">Uni E-Mail*</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Passwort*</label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ConfirmPassword">Passwort bestätigen*</label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn-primary register-button">Let's start!</button>
+        </form>
+        <div>
+            <p style="font-weight: bold; margin-top: 40px;">*Pflichtfeld</p>
+        </div>
+        </div>
+    </div>
+   
+
+</div>
+
+

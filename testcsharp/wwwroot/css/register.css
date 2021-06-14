@@ -1,0 +1,15 @@
+.register-button{
+  background-color: #f58b8f;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px transparent;
+  border: none;
+  height: 50px;
+  width: 140px;
+  font-weight: bold;
+}
+.register-button:hover {
+  border: 2px solid #f58b8f;
+  background-color: #fff;
+  color: #f58b8f;
+}

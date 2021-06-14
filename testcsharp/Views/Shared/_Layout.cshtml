@@ -19,9 +19,9 @@
 				<div style="height: 80px; border-top: 40px; display: flex; flex-direction: column; align-items: start;
 			justify-content: center;">
 					<p style="color: black; line-height: 0.8em; font-size: 24px; font-weight: 200;"><a
-							style="color: black; text-decoration: none;" href="@Url.Action("Index")">Europe Day</a></p>
+							style="color: black; text-decoration: none;" href="@Url.Action("Index","Home")">Europe Day</a></p>
 					<p style="color: black; line-height: 0.0em; font-size: 24px; font-weight: 700;"><a
-							style="color: black; text-decoration: none;" href="@Url.Action("Index")">ATHENATHON</a></p>
+							style="color: black; text-decoration: none;" href="@Url.Action("Index","Home")">ATHENATHON</a></p>
 				</div>
 				<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,15 +37,15 @@
 									<div class="col-12">
 										<div class="col-megamenu">
 											<ul class="list-unstyled">
-												<li><a href="@Url.Action("HellenicMediterraneanUniversity")">Hellenic
+												<li><a href="@Url.Action("HellenicMediterraneanUniversity","Home")">Hellenic
 														Mediterranean University</a></li>
-												<li><a href="@Url.Action("ThePolytechnicInstituteofPorto")">The
+												<li><a href="@Url.Action("ThePolytechnicInstituteofPorto","Home")">The
 														Polytechnic Institute of Porto</a></li>
-												<li><a href="@Url.Action("UniSiegen")">University of Siegen</a></li>
-												<li><a href="@Url.Action("UniMaribor")">University of Maribor</a></li>
-												<li><a href="@Url.Action("Unicusano")">UNICUSANO</a></li>
-												<li><a href="@Url.Action("UniOrleans")">University of Orléans</a></li>
-												<li><a href="@Url.Action("VilniusTech")">Vilnius Tech</a></li>
+												<li><a href="@Url.Action("UniSiegen","Home")">University of Siegen</a></li>
+												<li><a href="@Url.Action("UniMaribor","Home")">University of Maribor</a></li>
+												<li><a href="@Url.Action("Unicusano","Home")">UNICUSANO</a></li>
+												<li><a href="@Url.Action("UniOrleans","Home")">University of Orléans</a></li>
+												<li><a href="@Url.Action("VilniusTech","Home")">Vilnius Tech</a></li>
 											</ul>
 										</div>
 									</div>
@@ -56,9 +56,9 @@
 							</div>
 						</li>
 						<li style="font-weight: bold; font-size: 25;" class="nav-item"> <a class="nav-link athenathon"
-								href="@Url.Action("Athenathon")">Über Athenathon</a> </li>
+								href="@Url.Action("Athenathon","Home")">Über Athenathon</a> </li>
 						<li style="font-weight: bold; font-size: 25;" class="nav-item"><a class="nav-link faq"
-								href="@Url.Action("FAQ")">FAQ</a></li>
+								href="@Url.Action("FAQ","Home")">FAQ</a></li>
 						<li style="font-weight: bold; font-size: 25;" class="nav-item dropdown has-megamenu">
 							<img src="~/lib/images/_sprachen/germany.png" class="german-flag"
 								style="float:left; margin-top: 10px; margin-right: 12px;" alt="german-flag" width="20px"
@@ -91,22 +91,23 @@
 							</div>
 						</li>
 					</ul>
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item app d-none d-xl-block"><a
-								href="https://apps.apple.com/de/app/strava-laufen-radfahren/id426826309"
-								target="_blank">
-								<form style="border-color: black; border-radius: 19px;" class="btn btn-dark button-app"
-									type="submit">Hol dir die App</form>
-							</a></li>
-							
-						<form style="border-color: #D5D5D5; border-radius: 19px;" type="button"
-							class="btn btn-outline-dark nav-link nav-item button-login"  data-bs-toggle="dropdown"
-							>Anmelden</form>
-						<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="@Url.Action("Login")">Login</a></li>
-					<li><a class="dropdown-item" href="@Url.Action("Registry")">Registrieren</a></li>
-						</ul>
-					</ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item app d-none d-xl-block">
+                            <a href="https://apps.apple.com/de/app/strava-laufen-radfahren/id426826309"
+                               target="_blank">
+                                <form style="border-color: black; border-radius: 19px;" class="btn btn-dark button-app"
+                                      type="submit">
+                                    Hol dir die App
+                                </form>
+                            </a>
+                        </li>
+
+                        <form style="border-color: #D5D5D5; border-radius: 19px;" type="button"
+                              class="btn btn-outline-dark nav-link nav-item button-login" data-bs-toggle="dropdown">
+                            Anmelden
+                        </form>
+                        <partial name="_Loginpartial" />
+                    </ul>
 				</div>
 			</div>
 		</nav>
@@ -120,8 +121,8 @@
 				&copy; 2021 - ATHENA European University - All rights reserved.
 			</div>
 			<div class="footer-right-content">
-				<a href="@Url.Action("Impressum")">Impressum</a>
-				<a href="@Url.Action("Datenschutz")">Datenschutz</a>
+				<a href="@Url.Action("Impressum","Home")">Impressum</a>
+				<a href="@Url.Action("Datenschutz","Home")">Datenschutz</a>
 			</div>
 		</div>
 	</footer>
