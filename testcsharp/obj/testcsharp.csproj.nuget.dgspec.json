@@ -1,30 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\testcsharp.csproj": {}
+    "C:\\Users\\saturn\\Desktop\\Neuer Ordner (2)\\Implementierung\\testcsharp\\testcsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\testcsharp.csproj": {
+    "C:\\Users\\saturn\\Desktop\\Neuer Ordner (2)\\Implementierung\\testcsharp\\testcsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\testcsharp.csproj",
+        "projectUniqueName": "C:\\Users\\saturn\\Desktop\\Neuer Ordner (2)\\Implementierung\\testcsharp\\testcsharp.csproj",
         "projectName": "testcsharp",
-        "projectPath": "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\testcsharp.csproj",
-        "packagesPath": "C:\\Users\\OliSp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OliSp\\Documents\\GitHub\\Implementierung\\testcsharp\\obj\\",
+        "projectPath": "C:\\Users\\saturn\\Desktop\\Neuer Ordner (2)\\Implementierung\\testcsharp\\testcsharp.csproj",
+        "packagesPath": "C:\\Users\\saturn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saturn\\Desktop\\Neuer Ordner (2)\\Implementierung\\testcsharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files\\Microsoft Visual Studio Tools\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\OliSp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\saturn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp5.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -93,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
