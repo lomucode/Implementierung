@@ -1,0 +1,26 @@
+﻿
+@if (User.Identity.IsAuthenticated)
+{
+    <ul class="navbar-nav flex-grow-1">
+
+        <li class="nav-item">
+            <a class="nav-link text-dark logout" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+        </li>
+
+    </ul>
+    <style>
+    .button-login{
+        visibility: hidden !important;
+    }
+    .app{
+        margin-right: -8em !important;
+    }
+    </style>
+}
+else
+{
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Login">Login</a></li>
+        <li><a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Register">Registriere dich jetzt!</a></li>
+    </ul>
+}
