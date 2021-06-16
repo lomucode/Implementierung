@@ -73,3 +73,18 @@ body {
     width: 100%;
   }
 }
+.learn-more {
+    border-color: #f58b8f !important;
+    border-radius: 36px !important;
+    color: white !important;
+    background-color: #f58b8f !important;
+    padding: 13px !important;
+}
+
+
+.learn-more:hover {
+    background-color: transparent !important;
+    color: #f58b8f !important;
+    border-color: #f58b8f !important;
+    border-radius: 19px !;
+}
