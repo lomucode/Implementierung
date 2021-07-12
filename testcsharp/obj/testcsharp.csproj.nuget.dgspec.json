@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj": {}
+    "/Users/oliver.specovius/Projects/Implementierung/testcsharp/testcsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj": {
+    "/Users/oliver.specovius/Projects/Implementierung/testcsharp/testcsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj",
+        "projectUniqueName": "/Users/oliver.specovius/Projects/Implementierung/testcsharp/testcsharp.csproj",
         "projectName": "testcsharp",
-        "projectPath": "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj",
-        "packagesPath": "C:\\Users\\OliSp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\obj\\",
+        "projectPath": "/Users/oliver.specovius/Projects/Implementierung/testcsharp/testcsharp.csproj",
+        "packagesPath": "/Users/oliver.specovius/.nuget/packages/",
+        "outputPath": "/Users/oliver.specovius/Projects/Implementierung/testcsharp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files\\Microsoft Visual Studio Tools\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OliSp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/oliver.specovius/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -93,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
