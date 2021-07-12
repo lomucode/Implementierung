@@ -724,3 +724,16 @@ C:/Users/OliSp/Desktop/New/Implementierung/testcsharp/obj/Debug/netcoreapp5.0/Ra
 /Users/oliver.specovius/Projects/Implementierung/testcsharp/obj/Debug/netcoreapp5.0/ref/testcsharp.dll
 /Users/oliver.specovius/Projects/Implementierung/testcsharp/obj/Debug/netcoreapp5.0/testcsharp.pdb
 /Users/oliver.specovius/Projects/Implementierung/testcsharp/obj/Debug/netcoreapp5.0/testcsharp.genruntimeconfig.cache
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/System.Web.Mvc.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/System.Web.Razor.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/System.Web.Helpers.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/System.Web.WebPages.Deployment.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/System.Web.WebPages.Razor.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/System.Web.WebPages.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/Microsoft.Extensions.DependencyModel.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/Microsoft.Web.Infrastructure.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/Xamarin.Forms.Core.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/Xamarin.Forms.Platform.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/Xamarin.Forms.Xaml.dll
+/Users/oliver.specovius/Projects/Implementierung/testcsharp/bin/Debug/netcoreapp5.0/Google.DataTable.Net.Wrapper.dll

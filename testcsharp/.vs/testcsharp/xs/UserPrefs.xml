@@ -1,16 +1,26 @@
 ﻿<Properties StartupConfiguration="{885A971D-96C3-487D-A4D5-AA5289B4986C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/homepage.css">
+    <Files>
+      <File FileName="wwwroot/css/homepage.css" Line="5" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="testcsharp" expanded="True">
             <Node name="testcsharp" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="homepage.css" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
