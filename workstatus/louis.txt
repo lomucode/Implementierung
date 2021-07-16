@@ -11,6 +11,7 @@ Woche 4:    Startseite Frontend erstellt
 Woche 5:    Universität Webseite erstellt
             Navbar angepasst und dieser neue Funktionen zugewiesen
 Woche 6:    Einstellungsseite erstellt Frontend (mit Nadja, Alex und Annamarie)
+	    Komplettes Projekt auf ASP NET CORE 7 umgestellt, damit auch Windows-Nutzer VSC nutzen können
 Woche 7:    Xamarin App aufgesetzt & Team Einführung in Xamarin gegeben
 Woche 8:    Komplette Struktur der App erstellt (jede Seite, jede Verlinkung, usw. )
 Woche 9:    Login-Maske/Registrier-Maske Frontend erstellt (mit Nadja)
