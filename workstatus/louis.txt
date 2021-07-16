@@ -4,10 +4,21 @@ Woche 2:    Wireframe erstellt (Webanwendung, App)
 Woche 3:    Repo aufsetzen in Github
             C# ASP NET Rätsel erstellen, mit dem andere Teammitglieder C# lernen sollen
             C# ASP NET Projekt aufsetzen
-            Teammitgliedern Hilfestellung Github
+            Teammitgliedern Einführung in Github
 Woche 4:    Startseite Frontend erstellt
-            Gerüst erstellt (BottomTopper, Navbar)
+            Gerüst erstellt (BottomTopper, Navbar, usw)
             Einführung in CSS & HTML gegeben
-Woche 5:    Universität Siegen Webseite erstellt
+Woche 5:    Universität Webseite erstellt
             Navbar angepasst und dieser neue Funktionen zugewiesen
-            ViewController modifiziert
+Woche 6:    Einstellungsseite erstellt Frontend (mit Nadja, Alex und Annamarie)
+Woche 7:    Xamarin App aufgesetzt & Team Einführung in Xamarin gegeben
+Woche 8:    Komplette Struktur der App erstellt (jede Seite, jede Verlinkung, usw. )
+Woche 9:    Login-Maske/Registrier-Maske Frontend erstellt (mit Nadja)
+Woche 10:   Home-Seite erstellt (mit verschiedenen Views, zB CarouselView usw.) (mit Nadja)
+Woche 11:   Profil-Seite erstellt, Passwort ändern-Seite erstellt (mit Nadja)
+	GPS-Tracking-Funktion geschrieben, die einen double Wert bei dem Beenden der Funktion zurückliefert (Grundfunktionen von Oliver)
+Woche 12:   Zusammenbringen aller Zwischenstände des Teams
+	Einbetten von Grafiken in Dashboard (verschiedene Diagramme) (mit Nadja)
+Woche 13:   Einarbeitung in Code von Mohammad für die Datenbank
+	Implementierung von REST-API in das Xamarin Projekt
+Woche 14:   - noch ausstehend - 
