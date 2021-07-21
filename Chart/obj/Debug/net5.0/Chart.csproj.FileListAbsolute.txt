@@ -1,0 +1,7 @@
+C:\Users\OliSp\Desktop\brandnew\Chart\obj\Debug\net5.0\Chart.csproj.AssemblyReference.cache
+C:\Users\OliSp\Desktop\brandnew\Chart\obj\Debug\net5.0\Chart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OliSp\Desktop\brandnew\Chart\obj\Debug\net5.0\Chart.AssemblyInfoInputs.cache
+C:\Users\OliSp\Desktop\brandnew\Chart\obj\Debug\net5.0\Chart.AssemblyInfo.cs
+C:\Users\OliSp\Desktop\brandnew\Chart\obj\Debug\net5.0\Chart.csproj.CoreCompileInputs.cache
+C:\Users\OliSp\Desktop\brandnew\Chart\obj\Debug\net5.0\Chart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\OliSp\Desktop\brandnew\Chart\obj\Debug\net5.0\Chart.MvcApplicationPartsAssemblyInfo.cache

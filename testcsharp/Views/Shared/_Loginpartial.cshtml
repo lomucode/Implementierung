@@ -9,14 +9,19 @@
 <ul class="dropdown-menu">
     <li>
         <a class="dropdown-item" asp-controller="Account"
-            asp-action="ChangePassword">
+           asp-action="ChangePassword">
             Passwort ändern
         </a>
+        <a asp-action="Index" asp-controller="UserRoleManagement" class="dropdown-item">Einstellungen</a>
+        <a class="dropdown-item" href="@Url.Action("Settings","Home")">Einstellungen alt</a>
+        
     </li>
 </ul>
 
 <li class="nav-item">
-    <a style="font-weight:bold;"class="nav-link text-dark logout" asp-area="" asp-controller="Account" asp-action="Logout">abmelden</a>
+
+    <a style="font-weight:bold;" class="nav-link text-dark logout" asp-area="" asp-controller="Account" asp-action="Logout">abmelden</a>
+    
 </li>
 
 </ul>

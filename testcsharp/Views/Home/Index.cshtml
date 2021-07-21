@@ -1,6 +1,7 @@
 ﻿@section Scripts
 {
-<link href="~/css/homepage.css" rel="stylesheet" />
+    <link href="~/css/dashboard.css" rel="stylesheet" />
+    
 }
 
 
@@ -8,18 +9,80 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="content-container-homepage">
-    <div class="content-container-picture--homepage">
-        <img src="~/lib/images/web_start_one.png" />
+
+
+<div class="container-fluid" style="background-color: #F4F8FB;">
+    <div class="row" style="margin-top: 30px; padding-bottom: 200px;">
+        <div class="col-6 d-none d-lg-block">
+            <img src="~/lib/images/web_start_one.png" alt="faq" style=" width:80%; height:auto; padding: 50px" />
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="padding-right: 50px; margin-top: 60px;">
+            <h1>Starte durch beim Europe Day ATHENATHON</h1>
+            <p>
+                Die sieben Universitäten der ATHENA European University sind stolz darauf, den Europe-Day ATHENATHON zu starten, ein Sportereignis mit dem Ziel, eine Strecke von 11.000 km zu erreichen.
+                Innerhalb eines Monats, vom 9. April bis zum 9. Mai, laden wir die Studenten und Mitarbeiter jeder Universität und jede Person, die teilnehmen möchte, dazu ein, an unserer Veranstaltung teilzunehmen und unser 11.000 km-Ziel zu erreichen, das die Entfernung zwischen den sieben Standorten unserer Partnerschaftsuniversitäten darstellt.
+            </p>
+            <a href="@Url.Action("Athenathon","Home")"><button class="learn-more" type="submit">Mehr Erfahren</button></a>
+        </div>
+        <div class="row">
+
+            <div style="padding: 0;" class="col-12 btn">
+                <a class="smooth-scroll lm" href="#anchor">Zu den Statistiken</a>
+            </div>
+            <div id="anchor">
+                <canvas id="myChart" style="width:100%;max-width:700px; margin-top: 100px !important;"></canvas>
+
+                <script>
+                    var xyValues = [
+                        { x: 50, y: 7 },
+                        { x: 60, y: 8 },
+                        { x: 70, y: 8 },
+                        { x: 80, y: 9 },
+                        { x: 90, y: 9 },
+                        { x: 100, y: 9 },
+                        { x: 110, y: 10 },
+                        { x: 120, y: 11 },
+                        { x: 130, y: 14 },
+                        { x: 140, y: 14 },
+                        { x: 150, y: 15 }
+                    ];
+
+                    new Chart("myChart", {
+                        type: "scatter",
+                        data: {
+                            datasets: [{
+                                pointRadius: 4,
+                                pointBackgroundColor: "rgb(0,0,255)",
+                                data: xyValues
+                            }]
+                        },
+                        options: {
+                            legend: { display: false },
+                            scales: {
+                                xAxes: [{ ticks: { min: 40, max: 160 } }],
+                                yAxes: [{ ticks: { min: 6, max: 16 } }],
+                            }
+                        }
+                    });
+                </script>
+            </div>
+        </div>
     </div>
-    <div class="content-container-text--homepage">
-        <h1>Starte durch beim Europe Day ATHENATHON</h1>
-        <p>
-            Die sieben Universitäten der ATHENA European University sind stolz darauf, den Europe-Day ATHENATHON zu starten, ein Sportereignis mit dem Ziel, eine Strecke von 11.000 km zu erreichen.
-            Innerhalb eines Monats, vom 9. April bis zum 9. Mai, laden wir die Studenten und Mitarbeiter jeder Universität und jede Person, die teilnehmen möchte, dazu ein, an unserer Veranstaltung teilzunehmen und unser 11.000 km-Ziel zu erreichen, das die Entfernung zwischen den sieben Standorten unserer Partnerschaftsuniversitäten darstellt.
-        </p>
-        <a href="@Url.Action("Athenathon","Home")"><button class="learn-more" type="submit">Mehr Erfahren</button></a>
-    </div>
+
 
 </div>
-
+<script>
+    //Function for smooth anchor
+    $('a.smooth-scroll[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
