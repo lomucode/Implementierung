@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Threading.Tasks;
 
 namespace testcsharp.Models
 {
-    public class UserRole
+    public interface IPrinciple
     {
-        public string UserId { get; set; }
-        public string RoleName { get; set; }
+        IIdentity Identity { get; }
 
-        
+        bool IsinRole(string role);
     }
-    
 }

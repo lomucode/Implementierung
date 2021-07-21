@@ -20,7 +20,7 @@ namespace testcsharp.Controllers
             this.userManager = userManager;
             this.roleManager = roleManager;
         }
-
+        
         [HttpGet]
         public IActionResult Index()
         {
