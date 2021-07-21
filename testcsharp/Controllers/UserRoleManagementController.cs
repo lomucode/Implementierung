@@ -122,5 +122,9 @@ namespace testcsharp.Controllers
 
             return RedirectToAction(nameof(DisplayRoles));
         }
+        public IActionResult Settings()
+        {
+            return View();
+        }
     }
 }

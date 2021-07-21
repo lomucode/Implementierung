@@ -174,3 +174,4 @@ C:\Users\OliSp\Desktop\brandnew\testcsharp\obj\Debug\net5.0\Razor\Views\UserRole
 C:\Users\OliSp\Desktop\brandnew\testcsharp\obj\Debug\net5.0\Razor\Views\UserRoleManagement\Details.cshtml.g.cs
 C:\Users\OliSp\Desktop\brandnew\testcsharp\obj\Debug\net5.0\Razor\Views\UserRoleManagement\DisplayRoles.cshtml.g.cs
 C:\Users\OliSp\Desktop\brandnew\testcsharp\obj\Debug\net5.0\Razor\Views\UserRoleManagement\Index.cshtml.g.cs
+C:\Users\OliSp\Desktop\brandnew\testcsharp\obj\Debug\net5.0\Razor\Views\UserRoleManagement\Settings.cshtml.g.cs

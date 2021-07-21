@@ -2,10 +2,24 @@
 
 @{ ViewData["Title"] = "Index"; }
 
+<style>
+    #myInput {
+        background-image: url('https://www.w3schools.com/css/searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: 300px;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+    }
+
+
+</style>
 
 
 
-<div class="container-fluid" style="padding-bottom: 200px; background-color: #F4F8FB;">
+<div class="container-fluid" style="padding-bottom: 200px; background-color: #F4F8FB; min-height: 600px;" >
     <h1 style="padding-top: 20px; padding-bottom: 5px;">Einstellungen</h1>
     @await Html.PartialAsync("_TopMenuPartial")
 
@@ -16,11 +30,12 @@
 <p>No users</p> }
 else
 {
-<table class="table">
+        <input type="text" id="myInput" onkeyup="search()" placeholder="Nach Benutzern suchen..">
+<table class="table" id="myTable">
     <thead class="bg-dark text-white">
         <tr>
-            <th>Benutzer</th>
-            <th>Aktionen</th>
+            <th style="width: 1500px">Benutzer</th>
+            <th style="width: 300px">Aktionen</th>
         </tr>
     </thead>
     <tbody>
@@ -42,3 +57,24 @@ else
         </div>
     </div>
 </div>
+
+<script>
+    function search() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
