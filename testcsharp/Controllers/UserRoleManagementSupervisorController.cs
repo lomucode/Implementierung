@@ -9,18 +9,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace testcsharp.Controllers
 {
     [Authorize]
-    public class UserRoleManagementController : Controller
+    public class UserRoleManagementSupervisorController : Controller
     {
         private readonly UserManager<IdentityUser> userManager;
         private readonly RoleManager<IdentityRole> roleManager;
 
-        public UserRoleManagementController(UserManager<IdentityUser> userManager,
+        public UserRoleManagementSupervisorController(UserManager<IdentityUser> userManager,
                                             RoleManager<IdentityRole> roleManager)
         {
             this.userManager = userManager;
             this.roleManager = roleManager;
         }
-        [Authorize(Roles = "Admin")]
+        
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
         public IActionResult Index()
         {
@@ -28,9 +29,9 @@ namespace testcsharp.Controllers
             var users = userManager.Users.ToList();
             return View(users);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
-        public async Task<IActionResult> Details(string userId)
+        public async Task<IActionResult> DetailsSupervisor(string userId)
         {
             //find user by userId
             //Add UserName to ViewBag
@@ -43,33 +44,33 @@ namespace testcsharp.Controllers
 
             return View(userRoles);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
-        public IActionResult AddRole()
+        public IActionResult AddRoleSupervisor()
         {
-            return RedirectToAction(nameof(DisplayRoles));
+            return RedirectToAction(nameof(DisplayRolesSupervisor));
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpPost]
-        public async Task<IActionResult> AddRole(string role)
+        public async Task<IActionResult> AddRoleSupervisor(string role)
         {
             //create new role using roleManager
             //return to displayRoles
             await roleManager.CreateAsync(new IdentityRole(role));
-            return RedirectToAction(nameof(DisplayRoles));
+            return RedirectToAction(nameof(DisplayRolesSupervisor));
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
-        public IActionResult DisplayRoles()
+        public IActionResult DisplayRolesSupervisor()
         {
             //get all roles and pass to view
             var roles = roleManager.Roles.ToList();
 
             return View(roles);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
-        public IActionResult AddUserToRole()
+        public IActionResult AddUserToRoleSupervisor()
         {
             //get all users
             //get all roles
@@ -81,9 +82,9 @@ namespace testcsharp.Controllers
             ViewBag.Roles = new SelectList(roles, "Name", "Name");
             return View();
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpPost]
-        public async Task<IActionResult> AddUserToRole(UserRole userRole)
+        public async Task<IActionResult> AddUserToRoleSupervisor(UserRole userRole)
         {
             //find user from userRole.UserId
             //assign role to user
@@ -95,9 +96,9 @@ namespace testcsharp.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
-        public async Task<IActionResult> RemoveUserRole(string role, string userName)
+        public async Task<IActionResult> RemoveUserRoleSupervisor(string role, string userName)
         {
             //get user from userName
             //remove role of user using userManager
@@ -107,11 +108,11 @@ namespace testcsharp.Controllers
 
             var result = await userManager.RemoveFromRoleAsync(user, role);
 
-            return RedirectToAction(nameof(Details), new { userId = user.Id });
+            return RedirectToAction(nameof(DetailsSupervisor), new { userId = user.Id });
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
-        public async Task<IActionResult> RemoveRole(string role)
+        public async Task<IActionResult> RemoveRoleSupervisor(string role)
         {
             //get role to delete using role Name
             //delete role using roleManager
@@ -120,19 +121,14 @@ namespace testcsharp.Controllers
             var roleToDelete = await roleManager.FindByNameAsync(role);
             var result = await roleManager.DeleteAsync(roleToDelete);
 
-            return RedirectToAction(nameof(DisplayRoles));
+            return RedirectToAction(nameof(DisplayRolesSupervisor));
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Supervisor")]
         [HttpGet]
-        public IActionResult Settings()
+        public IActionResult SettingsSupervisor()
         {
             return View();
         }
-
-
-
-
-
 
 
 

@@ -14,9 +14,19 @@
 
 <div class="row" style="margin-bottom:10px;">
     <div class="col-12" style="padding-top: 27px; padding-bottom: 17px;">
-        <a asp-action="AddRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Rollen verwalten</a>
-        <a asp-action="AddUserToRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Benutzer verwalten</a>
-        <a asp-action="Settings" asp-controller="UserRoleManagement" class="btn btn-success">Distanz (km) verwalten</a>
+        @if (User.IsInRole("Admin"))
+        {
+            <a asp-action="AddRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Rollen verwalten</a>
+            <a asp-action="AddUserToRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Benutzer verwalten</a>
+            <a asp-action="Settings" asp-controller="UserRoleManagement" class="btn btn-success">Distanz (km) verwalten</a>
+        }
+        @if (User.IsInRole("Supervisor"))
+        {
+            <a asp-action="AddRoleSupervisor" asp-controller="UserRoleManagementSupervisor" class="btn btn-primary mr-2">Rollen verwalten</a>
+            <a asp-action="AddUserToRoleSupervisor" asp-controller="UserRoleManagementSupervisor" class="btn btn-primary mr-2">Benutzer verwalten</a>
+            <a asp-action="SettingsSupervisor" asp-controller="UserRoleManagementSupervisor" class="btn btn-success">Distanz (km) verwalten</a>
+        }
+
     </div>
 </div>
 

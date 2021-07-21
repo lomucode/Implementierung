@@ -53,7 +53,14 @@
                asp-action="ChangePassword">
                 Passwort ändern
             </a>
-            <a asp-action="Index" asp-controller="UserRoleManagement" class="dropdown-item">Einstellungen</a>
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Index" asp-controller="UserRoleManagement" class="dropdown-item">Einstellungen</a>
+            }
+            @if (User.IsInRole("Supervisor"))
+            {
+                <a asp-action="Index" asp-controller="UserRoleManagementSupervisor" class="dropdown-item">Einstellungen</a>
+            }
         </li>
     </ul>
 
