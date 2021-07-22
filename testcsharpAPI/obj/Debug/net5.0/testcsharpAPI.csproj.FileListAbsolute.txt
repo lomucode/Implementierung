@@ -1,0 +1,7 @@
+C:\Users\OliSp\Desktop\brandnew\testcsharpAPI\obj\Debug\net5.0\testcsharpAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OliSp\Desktop\brandnew\testcsharpAPI\obj\Debug\net5.0\testcsharpAPI.AssemblyInfoInputs.cache
+C:\Users\OliSp\Desktop\brandnew\testcsharpAPI\obj\Debug\net5.0\testcsharpAPI.AssemblyInfo.cs
+C:\Users\OliSp\Desktop\brandnew\testcsharpAPI\obj\Debug\net5.0\testcsharpAPI.csproj.CoreCompileInputs.cache
+C:\Users\OliSp\Desktop\brandnew\testcsharpAPI\obj\Debug\net5.0\testcsharpAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\OliSp\Desktop\brandnew\testcsharpAPI\obj\Debug\net5.0\testcsharpAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\OliSp\Desktop\brandnew\testcsharpAPI\obj\Debug\net5.0\testcsharpAPI.csproj.AssemblyReference.cache

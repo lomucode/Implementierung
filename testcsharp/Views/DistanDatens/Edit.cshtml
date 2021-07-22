@@ -1,0 +1,56 @@
+﻿@model testcsharp.models.DistanDaten
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DistanDaten</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Distanz" class="control-label"></label>
+                <input asp-for="Distanz" class="form-control" />
+                <span asp-validation-for="Distanz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DistanzArt" class="control-label"></label>
+                <input asp-for="DistanzArt" class="form-control" />
+                <span asp-validation-for="DistanzArt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Aktivitätsdauer" class="control-label"></label>
+                <input asp-for="Aktivitätsdauer" class="form-control" />
+                <span asp-validation-for="Aktivitätsdauer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DistanzManuellAnpassen" class="control-label"></label>
+                <input asp-for="DistanzManuellAnpassen" class="form-control" />
+                <span asp-validation-for="DistanzManuellAnpassen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DistanDatenDatum" class="control-label"></label>
+                <input asp-for="DistanDatenDatum" class="form-control" />
+                <span asp-validation-for="DistanDatenDatum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
