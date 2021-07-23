@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj": {}
+    "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj": {
+    "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj",
+        "projectUniqueName": "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj",
         "projectName": "testcsharp",
-        "projectPath": "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\testcsharp.csproj",
+        "projectPath": "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj",
         "packagesPath": "C:\\Users\\OliSp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OliSp\\Desktop\\New\\Implementierung\\testcsharp\\obj\\",
+        "outputPath": "D:\\brandnew - backup\\brandnew\\testcsharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\Microsoft Visual Studio Tools\\NuGetPackages",
@@ -32,7 +32,7 @@
         },
         "frameworks": {
           "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -44,31 +44,35 @@
       },
       "frameworks": {
         "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+          "targetAlias": "net5.0",
           "dependencies": {
+            "Chart.js": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

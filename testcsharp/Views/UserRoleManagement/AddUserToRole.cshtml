@@ -1,0 +1,31 @@
+﻿@model UserRole
+
+@{ ViewData["Title"] = "AddUserToRole"; }
+
+
+
+
+
+<div class="container-fluid" style="padding-bottom: 200px; background-color: #F4F8FB; min-height: 600px;">
+    <div class="row">
+        <h1 style="padding-top: 20px; padding-bottom: 20px;">Benutzer verwalten</h1>
+        <div class="col-6">
+            <form asp-action="AddUserToRole" method="post">
+                <div class="form-group">
+                    <select asp-for="UserId" asp-items="@ViewBag.Users" class="form-control">
+                        <option selected disabled>Benutzer auswählen</option>
+                    </select>
+                </div>
+
+                <div class="form-group">                 
+                    <select asp-for="RoleName" asp-items="@ViewBag.Roles" class="form-control">
+                        <option selected disabled>Rolle auswählen</option>
+                    </select>
+                </div>
+
+                <input type="submit" class="btn btn-outline-primary btn-block" value="Bestätigen" />
+                <a asp-action="Index" class="btn btn-outline-danger btn-block">Abbrechen</a>
+            </form>
+        </div>
+    </div>
+</div>

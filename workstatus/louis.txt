@@ -17,21 +17,9 @@ Woche 8:    Komplette Struktur der App erstellt (jede Seite, jede Verlinkung, us
 Woche 9:    Login-Maske/Registrier-Maske Frontend erstellt (mit Nadja)
 Woche 10:   Home-Seite erstellt (mit verschiedenen Views, zB CarouselView usw.) (mit Nadja)
 Woche 11:   Profil-Seite erstellt, Passwort ändern-Seite erstellt (mit Nadja)
-	    GPS-Tracking-Funktion geschrieben (Grundfunktionen von Oliver)
+	    GPS-Tracking-Funktion geschrieben, die einen double Wert bei dem Beenden der Funktion zurückliefert (Grundfunktionen von Oliver)
 Woche 12:   Zusammenbringen aller Zwischenstände des Teams
 	    Einbetten von Grafiken in Dashboard (verschiedene Diagramme) (mit Nadja)
 Woche 13:   Einarbeitung in Code von Mohammad für die Datenbank
 	    Implementierung von REST-API in das Xamarin Projekt
-Woche 14:   Backend App 
-	    Datenbank REST API Bugfixing, Funktionen von Mohammad angepasst, Response angepasst
-	    Datenbankanbindung an App
-	    Dashboard vollständig an Datenbank angebunden und dynamisch gemacht (mit Nadja) 
-	    Login/Registrieren an Datenbank angebunden
-	    GPS Tracking an Datenbank angebunden, Fehlermeldungen erstellt (mit Nadja)
-	    Bugfixing 
-	    Bedienung App screenrecording für Alex
-	    
-	    
-Allgemein:
-	    Gruppe in Github, C#, Xamarin eingearbeitet
-	    
+Woche 14:   - noch ausstehend - 

@@ -1,0 +1,35 @@
+﻿<style>
+    .btn-primary {
+        background-color: #F8933B !important;
+        border: #F8933B !important;
+    }
+    .btn-primary:hover {
+        background-color: #EE7600 !important;
+        border: #EE7600 !important;
+    }
+
+    .btn-danger {
+        color: white !important;
+    }
+    
+</style>
+
+<div class="row" style="margin-bottom:10px;">
+    <div class="col-12" style="padding-top: 27px; padding-bottom: 17px;">
+        @if (User.IsInRole("Admin"))
+        {
+            <a asp-action="AddRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Rollen verwalten</a>
+            <a asp-action="AddUserToRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Benutzer verwalten</a>
+            <a asp-action="Settings" asp-controller="UserRoleManagement" class="btn btn-success">Gesamtfortschritt (km) verwalten</a>
+        }
+        @if (User.IsInRole("Supervisor"))
+        {
+
+            <a style="color: white !important;" class="btn btn-primary mr-2">Daten bearbeiten</a>
+            <a asp-action="SettingsSupervisor" asp-controller="UserRoleManagementSupervisor" class="btn btn-primary mr-2">Gesamtfortschritt (km) verwalten</a>
+            <a class="btn btn-danger mr-2">Nutzer sperren/entfernen</a>
+        }
+
+    </div>
+</div>
+

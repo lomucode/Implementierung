@@ -1,14 +1,5 @@
-Woche 1: Einführung C# & Visual Studio
-Woche 2: vorläufige Pflichtenheft mit Nadja,
-Woche 3: vorläufige Plfichtenheft mit Nadja, Einführung in Github
-Woche 4: Einführung html & css
-Woche 5: Registration/ Login Website mit Anni & Nadja, Einführung Latex, Einführung Davinci Resolve
-Woche 6: Registration/ Login Website mit Anni & Nadja, Zwischenpräsentation, Einstellungsseite mit Anni/Nadja/Louis
-Woche 7: Zwischenpräsentation
-Woche 8: Aktivitätsseite APP erstellt mit Anni
-Woche 9: Aktivitätsseite APP mit Anni
-Woche 10: Einführung XAML
-Woche 11: Info Seite mit Anni
-Woche 12: Info Seite mit Anni
-Woche 13: Info Seite Expanderfunktion eingefügt mit Anni, Videodreh für das Intro mit Anni/ Nadja
-Woche 14: Videodreh mit Anni/Nadja/Louis, Präsentation
+Woche 1:
+Woche 2:
+Woche 3:
+Woche 4:
+Woche 5:

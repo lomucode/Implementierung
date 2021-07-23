@@ -5,7 +5,7 @@
   box-shadow: 0px 0px transparent;
   border: none;
   height: 50px;
-  width: 113px;
+  width: 144px !important;
   font-weight: bold;
 }
 .login-button:hover {
