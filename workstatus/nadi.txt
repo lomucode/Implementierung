@@ -2,8 +2,8 @@
 Woche 1:    Einführung in C#
 Woche 2:    vorläufige Pflichtenheft mit Alex
 Woche 3:    vorläufige Plfichtenheft mit Alex, Einführung in Github
-Woche 4:    
-Woche 5:   
+Woche 4:    Frontend für die Anmelde- & Registrierseite (mit Anni und Alex)
+Woche 5:    Ausbesserung des Frontends für die Anmelde & Registrierseite, Einstellungsseite mit Louis, Nadja und Alex
 Woche 6:    Einstellungsseite erstellt Frontend (mit Louis, Alex und Annamarie)
 Woche 7:    
 Woche 8:    Komplette Struktur der App erstellt (jede Seite, jede Verlinkung, usw. ) (mit Louis)
