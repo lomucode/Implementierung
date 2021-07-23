@@ -28,6 +28,7 @@ namespace testcsharpAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+             //Registering the DBContext in Startup
             services.AddDbContext<AppDBContext>(option =>
            option.UseSqlServer(Configuration.GetConnectionString("default")));
             services.AddControllers();
