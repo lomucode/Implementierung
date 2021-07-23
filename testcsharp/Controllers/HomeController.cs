@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using testcsharp.Helper;
+using testcsharp.models;
 using testcsharp.Models;
 
 namespace testcsharp.Controllers
 {
     public class HomeController : Controller
+
     {
+        DistansAPI _api = new DistansAPI();
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -18,9 +25,17 @@ namespace testcsharp.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<DistanDaten> distanzen = new List<DistanDaten>();
+            HttpClient client = _api.Initial();
+            HttpResponseMessage res = await client.GetAsync("api/DistanDatens");
+            if (res.IsSuccessStatusCode)
+            {
+                var result = res.Content.ReadAsStringAsync().Result;
+                distanzen = JsonConvert.DeserializeObject<List<DistanDaten>>(result);
+            }
+            return View(distanzen);
         }
 
         public IActionResult Privacy()

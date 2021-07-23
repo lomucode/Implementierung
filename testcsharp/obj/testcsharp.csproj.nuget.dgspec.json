@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj": {}
+    "D:\\backup API\\brandnew\\testcsharp\\testcsharp.csproj": {}
   },
   "projects": {
-    "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj": {
+    "D:\\backup API\\brandnew\\testcsharp\\testcsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj",
+        "projectUniqueName": "D:\\backup API\\brandnew\\testcsharp\\testcsharp.csproj",
         "projectName": "testcsharp",
-        "projectPath": "D:\\brandnew - backup\\brandnew\\testcsharp\\testcsharp.csproj",
+        "projectPath": "D:\\backup API\\brandnew\\testcsharp\\testcsharp.csproj",
         "packagesPath": "C:\\Users\\OliSp\\.nuget\\packages\\",
-        "outputPath": "D:\\brandnew - backup\\brandnew\\testcsharp\\obj\\",
+        "outputPath": "D:\\backup API\\brandnew\\testcsharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\Microsoft Visual Studio Tools\\NuGetPackages",

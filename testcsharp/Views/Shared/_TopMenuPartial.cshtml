@@ -20,6 +20,7 @@
         {
             <a asp-action="AddRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Rollen verwalten</a>
             <a asp-action="AddUserToRole" asp-controller="UserRoleManagement" class="btn btn-primary mr-2">Benutzer verwalten</a>
+            <a class="btn btn-danger mr-2">Nutzer sperren/entfernen</a>
             <a asp-action="Settings" asp-controller="UserRoleManagement" class="btn btn-success">Gesamtfortschritt (km) verwalten</a>
         }
         @if (User.IsInRole("Supervisor"))
