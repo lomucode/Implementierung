@@ -1,5 +1,19 @@
-Woche 1:
-Woche 2:
-Woche 3:
-Woche 4:
-Woche 5:
+
+Woche 1:    Einführung in C#
+Woche 2:    vorläufige Pflichtenheft mit Alex
+Woche 3:    vorläufige Plfichtenheft mit Alex, Einführung in Github
+Woche 4:    Frontend für die Anmelde- & Registrierseite (mit Anni und Alex)
+Woche 5:    Ausbesserung des Frontends für die Anmelde & Registrierseite, Einstellungsseite mit Louis, Nadja und Alex
+Woche 6:    Einstellungsseite erstellt Frontend (mit Louis, Alex und Annamarie)
+Woche 7:    Pflichtenheft an Zwischenstände angepasst
+Woche 8:    Komplette Struktur der App erstellt (jede Seite, jede Verlinkung, usw. ) (mit Louis)
+Woche 9:    Login-Maske/Registrier-Maske Frontend erstellt (mit Louis)
+Woche 10:   Home-Seite erstellt (mit verschiedenen Views, zB CarouselView usw.) (mit Louis)
+Woche 11:   Profil-Seite erstellt, Passwort ändern-Seite erstellt (mit Louis)
+Woche 12:   Einbetten von Grafiken in Dashboard (verschiedene Diagramme) (mit Louis)
+Woche 13:   Pflichtenheft auf den aktuellen Zwischenstand gebracht
+Woche 14:   Dashboard vollständig an Datenbank angebunden und dynamisch gemacht (mit Louis) 
+	          GPS Tracking an Datenbank angebunden, Fehlermeldungen erstellt (mit Louis)
+      	    UserToken implementiert (mit Louis)
+	          Pflichtenheft fertiggestellt
+
