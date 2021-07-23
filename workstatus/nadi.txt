@@ -1,7 +1,7 @@
 
-Woche 1:    
-Woche 2:    
-Woche 3:   
+Woche 1:    Einführung in C#
+Woche 2:    vorläufige Pflichtenheft mit Alex
+Woche 3:    vorläufige Plfichtenheft mit Alex, Einführung in Github
 Woche 4:    
 Woche 5:   
 Woche 6:    Einstellungsseite erstellt Frontend (mit Louis, Alex und Annamarie)
