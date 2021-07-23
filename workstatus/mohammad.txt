@@ -1,5 +1,18 @@
-Woche 1:
-Woche 2:
-Woche 3:
-Woche 4:
-Woche 5:
+Woche 1 :C#/Visual Studio Überblick
+Woche 2: Datenbank überblick  Datenbank und und ich habe Struktur  gemacht (  https://lucid.app/lucidchart/110d2542-c15f-4d82-a3b0-6a1f710416ac/edit?beaconFlowId=965F89BF27848CEB&page=0_0# )
+Woche 3: Datenbank bearbeiten und lernen wie  Tabellen zu erstellen, löschen und Daten hinzufügen 
+Woche 4: c# (Asp.net core ,Xamarin ) lernen  und Überblick übe GitHub und 
+Datenbankdiagramm 
+Woche 5:  Datenbank mit web anbinden und überblick über( Location Traking)
+
+Woche 6+7: code Register in web geschrieben und code damit nicht zweimal mit gleiche Email register
+Woche 7: code Login in web gemacht und code zum Anzeigen eines Benutzernamens beim Anmelden oder Registrieren eines neuen Benutzers auf der Seite
+Woche 8  :   code Logout  in web und Change Password gemacht
+Woche 9: Datenbank bearbeiten und ForgotPassword, email confirmation versucht zu machen
+
+10+11 :  API gemacht damit Datenbank  verbinden mit Xamarin (API vorbereiten mit alle code Login , Register , DistanDaten, News, BeitragUni, SportArt, TotlalDistan_Daten)  und lernen wie kann Man Login Page und Register Page machen
+Woche 12+13: lernen über Validating An Email  in web (Register mit nur Uni Email)  
+Datenbank API mit Xamarin anzubinden und mit ( Louis) gearbeitet  zusammen um API mit Xamarin anzubinden  
+
+Woche 14: ich habe UserRoleManagement in web gemacht (Rolle hinzufügen , löschen , Zuweisen von Rollen zum Benutzer und Löschen ) und ich habe versucht User hinzufügen oder löschen zu machen ) und Datenbank Struktur und Datenbankdiagramm   bearbeiten 
+Und mit Oli gearbeitet über  (Datenbank API einbinden , Einstellung bearbeitet, Charts)
