@@ -30,6 +30,8 @@ namespace testcsharp
             //code database The AppDBContext object performs the task of connecting to the database
             //and mapping AppDBContext to records in the database
             string connectionString = Configuration.GetConnectionString("default");
+                       // The AddDbContext expects us to provide the Type that we will use for Context class, which is AppDbContext.
+
             services.AddDbContext<AppDBContext>(c => c.UseSqlServer(connectionString));
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
             services.AddControllersWithViews();
