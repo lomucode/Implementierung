@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace testcsharp.Models.DBContext
 {
+// code AppDbContext Es ist eine Brücke zwischen Ihrer Domäne oder Entitätsklassen und der Datenbank.
+
     public class AppDBContext : IdentityDbContext
     {
         private readonly DbContextOptions _options;
