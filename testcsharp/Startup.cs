@@ -33,6 +33,8 @@ namespace testcsharp
                        // The AddDbContext expects us to provide the Type that we will use for Context class, which is AppDbContext.
 
             services.AddDbContext<AppDBContext>(c => c.UseSqlServer(connectionString));
+            //In the startup class, we also need to register the Identity related services
+            //To do that we use the AddIdentity extension method
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
             services.AddControllersWithViews();
             services.AddControllersWithViews();
