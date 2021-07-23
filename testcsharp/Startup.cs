@@ -26,6 +26,9 @@ namespace testcsharp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Registering the DBContext in Startup
+            //code database The AppDBContext object performs the task of connecting to the database
+            //and mapping AppDBContext to records in the database
             string connectionString = Configuration.GetConnectionString("default");
             services.AddDbContext<AppDBContext>(c => c.UseSqlServer(connectionString));
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
