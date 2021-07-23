@@ -1,19 +1,5 @@
-Dokumentation AWS
-
-Woche 1: Einführung in C# & Visual Studio 
-Woche 2: Wireframe erstellt (Webanwendung, App) + Teammitgliedern erklärt für die Erstellung des Pflichtenheft
-Woche 3: Einführung in GitHub, Rätsel gelöst von Louis
-Woche 4: Einführung in CSS & HTML
-         Frontend Erstellung der Registrierung/Anmeldeseite mit Nadja und Alex 
-Woche 5: Ausbesserung des Frontends für die Anmelde & Registrierseite, Einstellungsseite mit Louis, Nadja und Alex
-Woche 6: Fertigstellung der Einstellungsseite  (Frontend)
-Woche 7: Betriebsanleitung überlegen, Struktur schaffen
-Woche 8: Einarbeitung Xamarin
-Woche 9: Aktivitätsseite erstellt für die App mit Alex (Frontend)
-Woche 10:Aktivitätsseite fertiggestellt mit Alex (Frontend)
-Woche 11:Infoseite für die App mit Alex  (Frontend)
-Woche 12:Infoseite für die App mit Alex (Frontend)
-Woche 13:Betriebsanleitung, App farblich angepasst, Video gedreht, Infoseite implementiert (App) 
-Woche 14:Betriebsanleitung Fertigstellung
-         Video drehen und planen
-         Einfügen von Video in die Startingpage der App 
+Woche 1:
+Woche 2:
+Woche 3:
+Woche 4:
+Woche 5:

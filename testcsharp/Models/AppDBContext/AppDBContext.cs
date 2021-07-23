@@ -22,5 +22,7 @@ namespace testcsharp.Models.DBContext
             base.OnModelCreating(modelBuilder);
 
         }
+
+        
     }
 }

@@ -1,0 +1,2 @@
+C:\Users\OliSp\Desktop\brandnew\testcsharp\obj\Debug\netcoreapp3.0\testcsharp.dll
+C:\Users\OliSp\Desktop\brandnew\testcsharp\obj\Debug\netcoreapp3.0\testcsharp.pdb

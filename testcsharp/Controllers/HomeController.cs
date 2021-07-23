@@ -32,8 +32,15 @@ namespace testcsharp.Controllers
         {
             return View();
         }
-
+        public IActionResult LineChart()
+        {
+            return View();
+        }
         public IActionResult UniSiegen()
+        {
+            return View();
+        }
+        public IActionResult Dashboard()
         {
             return View();
         }
@@ -88,14 +95,13 @@ namespace testcsharp.Controllers
             return View();
         }
 
-        public IActionResult Dashboard()
-        {
-            return View();
-        }
+       
         public IActionResult Login()
         {
             return View();
         }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

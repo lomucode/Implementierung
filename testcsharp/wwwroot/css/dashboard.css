@@ -1,0 +1,43 @@
+.learn-more {
+    background-color: #f58b8f;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px transparent;
+    border: none;
+    height: 50px;
+    width: 140px;
+}
+
+.learn-more:hover {
+  border: 2px solid #f58b8f;
+  background-color: #fff;
+  color: #f58b8f;
+}
+.statistics {
+    background-color: #f58b8f;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px transparent;
+    border: none;
+    height: 50px;
+    width: 240px;
+}
+
+.statistics:hover {
+    border: 2px solid #f58b8f;
+    background-color: #fff;
+    color: #f58b8f;
+}
+.smooth-scroll {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+    .smooth-scroll:hover {
+        text-decoration: none;
+        color: #F8933B;
+    }   
+#anchor{
+    
+}

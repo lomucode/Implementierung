@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,15 +12,22 @@ namespace testcsharp.Controllers
 {
     public class AccountController : Controller
     {
+        
 
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly RoleManager<IdentityRole> roleManager;
+        private readonly ILogger<AccountController> logger;
 
         public AccountController(UserManager<IdentityUser> userManager,
-                              SignInManager<IdentityUser> signInManager)
+                              SignInManager<IdentityUser> signInManager,
+                              RoleManager<IdentityRole> roleManager,
+                               ILogger<AccountController> logger)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            this.roleManager = roleManager;
+            this.logger = logger;
         }
         public IActionResult Index()
         {

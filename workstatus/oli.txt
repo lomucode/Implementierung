@@ -1,26 +1,5 @@
-Oli
-
-Woche 1 :C#/Visual Studio Überblick
-Woche 2: Design Brainstorming
-Woche 3: Komplettes Design App
-Woche 4: Komplettes Design Website
-Woche 5: Erstes Standard-Menü (von Louis) auf Designmenü (Megamenü) umgestellt, Anpassung aller bisherigen Seiten an Design mit Farbcodes (CSS) und Buttons (HTML), Responsive gemacht (Boostrap) 
-Woche 6: Erstellung: Impressum, Datenschutz, Sprachen, Über ATHENATHON, FAQ (Expanders), weitere UniSeiten hinzugefügt
-Woche 7: Xamarin Einführung, Website (Anmeldemenü)
-Woche 8: Registrieren und Anmelden Website funktionstüchtig gemacht Backend/Frontend (Mit Mohammad)
-Woche 9: Xamarin Probleme, daher Recherche für weitere Funktionen in Website und App (wie GPS Tracking)
-Woche 10: GPS Tracking (App) Grundfunktion geschrieben (Xamarin Backend)
-Woche 11: Recherche Dashboard Website (Charts, News, API Einbindung)
-Woche 12: Recherchen für weitere Funktionen, Bugfixing Website
-Woche 13: Einarbeitung Datenbankstrukturen, API Anbindung Recherche
-Woche 14: Backend Website
-Datenbank API einbinden in Website (Hatte funktioniert, danach leider komplettes Projekt eingefroren) (Mit Mohammad)
-RegEx geschrieben für Uni-Login
-GoogleCharts statisch als Visualisierung eingebunden
-Autorisierung geschrieben für Login admin/supervisor + Badges
-Einstellungen Website (Frontend angepasst) (Mit Mohammad)
-Bugfixing
-Bedienung Website Screenrecording für Alex
-   	    
-Allgemein:
-	    Einarbeitung Team: HTML, CSS (Bootstrap)
+Woche 1:
+Woche 2:
+Woche 3:
+Woche 4:
+Woche 5:
