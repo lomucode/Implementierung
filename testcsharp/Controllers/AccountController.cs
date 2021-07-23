@@ -12,6 +12,9 @@ namespace testcsharp.Controllers
 {
     public class AccountController : Controller
     {
+    // Controllers are the brain of a ASP.NET core application.They process incoming requests,
+          //  perform actions on model data, and select views to render for the user.
+
         
 
         private readonly UserManager<IdentityUser> _userManager;
@@ -37,6 +40,7 @@ namespace testcsharp.Controllers
         {
             return View();
         }
+             // code for user Register action
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
@@ -67,6 +71,7 @@ namespace testcsharp.Controllers
             }
             return View(model);
         }
+         // code for user Login action
         [HttpGet]
         [AllowAnonymous]
         public IActionResult Login()
@@ -91,6 +96,8 @@ namespace testcsharp.Controllers
             }
             return View(user);
         }
+        
+                // ChangePasswordAsync changes the user password
         [HttpGet]
         public IActionResult ChangePassword()
         {
@@ -127,11 +134,29 @@ namespace testcsharp.Controllers
 
             return View(model);
         }
+          // code for  user Logout action
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
 
             return RedirectToAction("Index","Home");
+        }
+        // code  to not be registered twice with the same email
+        [AcceptVerbs("Get", "Post")]
+        [AllowAnonymous]
+        public async Task<IActionResult> IsEmailInUse(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+
+            if (user == null)
+            {
+                return Json(true);
+            }
+            else
+            {
+                return Json($"Email {email} is already in use .");
+            }
+
         }
     }
 }
